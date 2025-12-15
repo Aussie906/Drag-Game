@@ -26,9 +26,9 @@ $(function () {
 
         // update text output box (legacy behavior)
         if (score < 500) {
-            $("#wow-output").html('<h2>not much wow (' + score + ')</h2>');
+            $("#wow-output").html('<h2>not very nyan (' + score + ')</h2>');
         } else {
-            $("#wow-output").html('<h2>so much wow (' + score + ')!!</h2>');
+            $("#wow-output").html('<h2>much much nyan (' + score + ')!!</h2>');
         }
 
 
@@ -46,16 +46,16 @@ $(function () {
 
         // Status message
         if (score < 0) {
-            $("#status-message").text("Doge is confused... HOW DID YOU DO DIS");
+            $("#status-message").text("WHY DID YOU CREATE ME THIS WAY?!");
         }
         else if (score < 300) {
-            $("#status-message").text("Doge is warming up...");
+            $("#status-message").text("Poptart Cat is buffering...");
         } else if (score < 600) {
-            $("#status-message").text("Wow! Doge is gaining power!");
+            $("#status-message").text("Woah, slow down there Tex.");
         } else if (score < 900) {
-            $("#status-message").text("Much skill. Very drag. Wow.");
+            $("#status-message").text("Very Nyan of you!");
         } else {
-            $("#status-message").text("MAXIMUM WOW ACHIEVED! 💥🐶");
+            $("#status-message").text("LOTS OF NYAN! TOO MUCH! 💥");
         }
     }
 });
